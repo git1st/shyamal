@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+
+<th:block th:fragment="tiles">
+	<!-- top tiles start -->
+	<div class="row tile_count">
+		<div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+			<span class="count_top "><i class="fa fa-user"></i>  Brokers</span>
+			<div class="count green" th:text="${topTiles.totalBrokers}"></div>
+		</div>
+		<div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+			<span class="count_top "><i class="fa fa-user"></i>  Customers</span>
+			<div class="count" th:text="${topTiles.totalCustomers}"></div>
+		</div>
+		<div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+			<span class="count_top "><i class="fa fa-user"></i>  Products</span>
+			<div class="count" th:text="${topTiles.totalProducts}"></div>
+		</div>
+		<div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+			<span class="count_top"><i class="fa fa-sitemap"></i> Total Sales</span>
+			<div class="count green" th:text="${topTiles.totalSales}"></div>
+		</div>
+	</div>
+	<!-- top tiles end -->
+
+</th:block>
+
+</html>
