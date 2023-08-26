@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Battery1",
+        "postcode": 1,
+        "wattcapacity": 20
+    },
+    {
+        "name": "Battery2",
+        "postcode": 2,
+        "wattcapacity": 12
+    },
+    {
+        "name": "Battery3",
+        "postcode": 3,
+        "wattcapacity": 15
+    },
+    {
+        "name": "Battery4",
+        "postcode": 4,
+        "wattcapacity": 25
+    },
+    {
+        "name": "Battery5",
+        "postcode": 5,
+        "wattcapacity": 30
+    },
+    {
+        "name": "Battery6",
+        "postcode": 6,
+        "wattcapacity": 10
+    },
+    {
+        "name": "Battery7",
+        "postcode": 7,
+        "wattcapacity": 26
+    },
+    {
+        "name": "Battery8",
+        "postcode": 8,
+        "wattcapacity": 22
+    },
+    {
+        "name": "Battery9",
+        "postcode": 9,
+        "wattcapacity": 18
+    },
+    {
+        "name": "Battery10",
+        "postcode": 10,
+        "wattcapacity": 36
+    },
+    {
+        "name": "Battery11",
+        "postcode": 11,
+        "wattcapacity": 17
+    },
+    {
+        "name": "Battery12",
+        "postcode": 12,
+        "wattcapacity": 21
+    },
+    {
+        "name": "Battery13",
+        "postcode": 13,
+        "wattcapacity": 24
+    },
+    {
+        "name": "Battery22",
+        "postcode": 13,
+        "wattcapacity": 24
+    },
+    {
+        "name": "Battery23",
+        "postcode": 13,
+        "wattcapacity": 24
+    }
+]

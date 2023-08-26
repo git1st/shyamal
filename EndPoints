@@ -1,0 +1,30 @@
+
+#endpoint to generate JwtToken. This is all user access permited
+1> localhost:8082/API/getJWTToken
+
+#endpoint to create new user. This is all user access permited
+2> localhost:8082/API/addUser
+
+# endpoint Only access to: admin (ROLE_ADMIN)
+3> localhost:8082/API/addBatteries
+
+# endpoint access to: admin,user (ROLE_ADMIN)
+# Get List of all batteries
+4> localhost:8082/API/getBatteryList
+
+# endpoint access to: admin,user (ROLE_ADMIN, ROLE_USER)
+# Get List of battery with postcode from 1 to 10 for example
+# This will return: batteryname,postcode,watt capacity, total Wattcapacity, Average Wattcapacity
+5> localhost:8082/API/getBatteryList/1/10
+
+# endpoint access to: admin,user (ROLE_ADMIN, ROLE_USER)
+# Get the Maximun watt capacity battery with postcode from 1 to 10 for example
+6> localhost:8082/API/getBatteryWithMaxWattCapacity/1/10
+
+# endpoint access to: admin,user (ROLE_ADMIN, ROLE_USER)
+# Get the Minimun watt capacity battery with postcode from 1 to 10 for example
+7> localhost:8082/API/getBatteryWithMinWattCapacity/1/10
+
+# endpoint access to: admin,user (ROLE_ADMIN, ROLE_USER)
+# Get the list of battery below threshold watt capacity: 20 for example
+8> localhost:8082/API/getBatteryListBelowCapacity/20

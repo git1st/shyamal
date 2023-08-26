@@ -1,0 +1,13 @@
+{
+    "name":"admin",
+    "password":"admin",
+    "roles":"ROLE_ADMIN"
+}
+
+
+
+{
+    "name":"user",
+    "password":"user",
+    "roles":"ROLE_USER"
+}
